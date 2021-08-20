@@ -13,7 +13,7 @@ def test_form_entry():
 	driver.find_element_by_name("alamat").send_keys("Tangerang")
 	driver.find_element_by_name("perusahaan").send_keys("PT Sumber Alfaria Trijaya")
 	driver.find_element_by_name("tanggal").send_keys("20/08/2021")
-	driver.find_element_by_name("divisi").send_keys("IT Back Office")
+	driver.find_element_by_name("divisi").send_keys("IT Back Office Development")
 	driver.find_element_by_name("posisi").send_keys("Programmer")
 	driver.find_element_by_name("gaji").send_keys("1000000")
 	driver.find_element_by_name("atasan").send_keys("ADN")
